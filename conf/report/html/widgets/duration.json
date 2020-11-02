@@ -1,0 +1,11 @@
+[ {
+  "uid" : "577c48c62e0da6a7",
+  "name" : "测试接口是否正常",
+  "time" : {
+    "start" : 1604303856740,
+    "stop" : 1604303857340,
+    "duration" : 600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

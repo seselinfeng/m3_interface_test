@@ -1,0 +1,16 @@
+test_login:
+  - headers:
+      Content-Type: application/json
+    json:
+      invitationCode: 'null'
+      pid: '1'
+      qdata: '18516126760'
+      requestTime: 1596527403197
+      service: login
+      sign: b01255d9de8329065af4ebcabf0c7beb
+      signType: MD5
+      symbol: 158fec90597c4fbbb255587e58006535
+      unionid: o1jaVwTeT8fN-WlrHJK6cZkUXAvY
+      uticket: A08ADeolNo1Pq9dMfTzyFZfmoDgPrB/TEWNB8eM+p/0=
+    method: post
+    url: https://gateway.test.m3.m3cube.cn/recv

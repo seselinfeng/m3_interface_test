@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "获取房态接口测试",
+    "children" : [ {
+      "name" : "测试接口是否正常",
+      "uid" : "577c48c62e0da6a7",
+      "parentUid" : "e4096b69132b06c7d1cac1f43a1619b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604303856740,
+        "stop" : 1604303857340,
+        "duration" : 600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'headers': {'Content-Type': 'application/json'}, 'json': {'pid': '1', 'service': 'get_room_status_data', 'signType': 'MD5', 'symbol': '4e349f7fb2ad48fbbb04245f916189af'}, 'method': 'post', 'url': 'https://gateway.test.m3.m3cube.cn/manager', 'verify': False}" ]
+    } ],
+    "uid" : "e4096b69132b06c7d1cac1f43a1619b5"
+  } ]
+}

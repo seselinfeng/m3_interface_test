@@ -1,0 +1,11 @@
+test_get_room_status_data:
+  - headers:
+      Content-Type: application/json
+    json:
+      pid: '1'
+      service: get_room_status_data
+      signType: MD5
+      symbol: 4e349f7fb2ad48fbbb04245f916189af
+    method: post
+    url: https://gateway.test.m3.m3cube.cn/manager
+    verify: False

@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "mac-test.local",
+    "children" : [ {
+      "name" : "11271-MainThread",
+      "children" : [ {
+        "name" : "测试接口是否正常",
+        "uid" : "7d2c100c402e4f34",
+        "parentUid" : "8cab2c3cf08dacaab6a2c707f83a4963",
+        "status" : "broken",
+        "time" : {
+          "start" : 1604303646940,
+          "stop" : 1604303646940,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'headers': {'Content-Type': 'application/json'}, 'json': {'pid': '1', 'service': 'get_room_status_data', 'signType': 'MD5', 'symbol': '4e349f7fb2ad48fbbb04245f916189af'}, 'method': 'post', 'url': 'https://gateway.test.m3.m3cube.cn/manager', 'verify': False}" ]
+      } ],
+      "uid" : "8cab2c3cf08dacaab6a2c707f83a4963"
+    }, {
+      "name" : "11514-MainThread",
+      "children" : [ {
+        "name" : "测试接口是否正常",
+        "uid" : "577c48c62e0da6a7",
+        "parentUid" : "3b582543c565b03d09be0f9ebe05718b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604303856740,
+          "stop" : 1604303857340,
+          "duration" : 600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'headers': {'Content-Type': 'application/json'}, 'json': {'pid': '1', 'service': 'get_room_status_data', 'signType': 'MD5', 'symbol': '4e349f7fb2ad48fbbb04245f916189af'}, 'method': 'post', 'url': 'https://gateway.test.m3.m3cube.cn/manager', 'verify': False}" ]
+      } ],
+      "uid" : "3b582543c565b03d09be0f9ebe05718b"
+    } ],
+    "uid" : "841c9417d5297ce5f52b44bf1a15bf9d"
+  } ]
+}

@@ -1,0 +1,17 @@
+test_login:
+  - headers:
+      Content-Type: application/json
+    json:
+      encryptedData: 'ErsBTVcfr0J1kg/Lx4FFlpHbtowTv++2Lc6zKrihbevSJgYnCtAeJV1Xum+eqTBgGC/5FBzCIpoOgRxnoWlKiu1bjl5af6nABMn8SvE3VPPeP2HND6Qt5leE/TcLjeKgc4Xmcyzoq3/34fONyxuZ3xDVi9k/+B2v89V9SlhDvkGB7pn5h4bSkeCjSd6QIO34e+WDDCS+MDMyFWeBwSTrLg=='
+      pid: '1'
+      iv: 'wdycd73g/BbruO6bcbRH9Q=='
+      requestTime: 1603972090381
+      service: manager_login
+      sign: 63bfbacf0e316f6e0da2fedc74ceacbd
+      signType: MD5
+      symbol: e8e6782a3e294725b4723e57eda6170c
+      code: 051sl5ll2sTOS54pI8nl26UG9W3sl5ls
+      cloudID: MxAw5n9bpmN8rU2tMBUkPl5FM2GFecXXohk2qk_My3rLZwmAafPZoTT-qYw
+    method: post
+    url: https://gateway.test.m3.m3cube.cn/manager
+    verify: False

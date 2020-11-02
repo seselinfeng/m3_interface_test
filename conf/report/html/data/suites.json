@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_get_room_status",
+    "children" : [ {
+      "name" : "TestGetRoomStatus",
+      "children" : [ {
+        "name" : "测试接口是否正常",
+        "uid" : "577c48c62e0da6a7",
+        "parentUid" : "ef7edfe02b627a82ad0fd094b63dc8a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604303856740,
+          "stop" : 1604303857340,
+          "duration" : 600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'headers': {'Content-Type': 'application/json'}, 'json': {'pid': '1', 'service': 'get_room_status_data', 'signType': 'MD5', 'symbol': '4e349f7fb2ad48fbbb04245f916189af'}, 'method': 'post', 'url': 'https://gateway.test.m3.m3cube.cn/manager', 'verify': False}" ]
+      } ],
+      "uid" : "ef7edfe02b627a82ad0fd094b63dc8a4"
+    } ],
+    "uid" : "64fec982577b77f690ffa56da8d87dd5"
+  } ]
+}

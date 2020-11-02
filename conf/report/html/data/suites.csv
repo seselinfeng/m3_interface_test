@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Nov 02 15:57:36 CST 2020","Mon Nov 02 15:57:37 CST 2020","600","","test_get_room_status","TestGetRoomStatus","","","测试接口是否正常",""
